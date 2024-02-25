@@ -1,0 +1,46 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #E9F2E3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  h1 {
+    text-align: center;
+    font-family: 'Moirai One', cursive;
+    font-size: 53px;
+  }
+  
+  .container{
+   background-color: aquamarine;
+    
+  }
+  
+  .tabs {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 20px;
+  }
+  
+  .tab {
+    display: inline-block;
+    padding: 10px;
+    cursor: pointer;
+    color: #fff;
+    background-color: #56445D;
+  }
+  
+  .tab-content {
+    display: none;
+    padding: 20px;
+    background-color: #56445D;
+    color: #fff
+  }
+  
+  
